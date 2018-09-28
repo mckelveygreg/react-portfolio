@@ -15,7 +15,7 @@ const Skills = props => {
   });
   return (
     <div>
-        <h2>{props.title}</h2>
+        <h2 className="skillBanner">{props.title}</h2>
       <div className="skills">
         {content}
       </div>

@@ -1,3 +1,9 @@
+.skillBanner {
+  background: linear-gradient(to right, #00000000, #fff, #fff, #00000000),
+    linear-gradient(#fff, #00000000, #fff), linear-gradient(#888, #888);
+  padding: 10px;
+}
+
 .skills {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
@@ -7,14 +13,14 @@
 }
 
 .skill {
-    border: solid #555; 
-    margin: 30px;
-    transition: ease-out 0.1s;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    width: 320px;
-    padding: 15px 10px;
+  border: solid #555;
+  margin: 30px;
+  transition: ease-out 0.1s;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  padding: 15px 10px;
 }
 
 .skill img {
@@ -39,14 +45,13 @@
   .skills {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
-  
+
   .skill {
     width: 95%;
   }
 
-  .skill h3, .skill p {
+  .skill h3,
+  .skill p {
     font-size: 1rem;
-
   }
-
 }
