@@ -97,6 +97,34 @@ export default {
     img: require("../../images/project-screenshots/100-days-of-code.jpg"), 
     alt: "100 Days of Code"
     
+  }],
+
+  apis: [{
+    title: "TimeStamp Microservice",
+    link: "https://fcc-timestamp-microservice-mckelveygreg.glitch.me/",
+    desc: "Node/Express"
+  },{
+    title: "Request Header Parser Microservice",
+    link: "https://nettle-bassoon.glitch.me/",
+    desc: "Node/Express"
+  },{
+    title: "URL Shortener Microservice",
+    link: "https://fcc-url-shortener-mckelveygreg.glitch.me",
+    desc: "Node/Express/MongoDB"
+  },{
+    title: "Exercise Tracker",
+    link: "https://fcc-exercise-tracker-mckelveygreg.glitch.me",
+    desc: "Node/Express/MongoDB"
+  },{
+    title: "File Metadata Microservice",
+    link: "https://fcc-file-metadata-mckelveygreg.glitch.me",
+    desc: "Node/Express"
+  }],
+
+  infoSecQA: [{
+    title: "Metric Imperial Converter",
+    link: "https://fcc-imperial-metric-converter-mckelveygreg.glitch.me",
+    desc: "Node/Express/Helmet/Chai"
   }]
   
 }
