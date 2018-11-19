@@ -1,1 +1,1 @@
-This is the repo for working on the React version of my [portfolio](mckelveygreg.github.io)
+This is the repo for working on the React version of my [portfolio](https://mckelveygreg.github.io/)
