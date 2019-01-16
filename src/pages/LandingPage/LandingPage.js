@@ -6,8 +6,8 @@ const LandingPage = props => {
   return (
     <section id="landingPage">
       <h1>Hi! I'm Greg McKelvey</h1>
+      <p>I'm a web developer</p>
       <SocMeds />
-      <p>I'm a new web developer</p>
     </section>
   );
 };

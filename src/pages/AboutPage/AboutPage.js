@@ -1,12 +1,13 @@
 import React from "react";
-import styles from "./styles.css";
+import "./styles.css";
 import Banner from "../../components/Banner/Banner";
+import SocMeds from "../../components/SocMeds/SocMeds";
 
 const AboutPage = () => {
   return (
-    <div>
+    <div id="aboutPage">
       <Banner banner="My Story" />
-      <section id="aboutPage">
+      <section id="aboutSection">
         <div id="aboutText">
           <p>
             I've been interested in technology all of my life. From hacking
@@ -48,6 +49,7 @@ const AboutPage = () => {
             mckelveygreg@gmail.com
           </p>
         </div>
+        <SocMeds />
       </section>
     </div>
   );

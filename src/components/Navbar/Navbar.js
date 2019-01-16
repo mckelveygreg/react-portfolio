@@ -7,7 +7,7 @@ const Navbar = () => {
       <a href="#landingPage">Home</a>
       <a href="#aboutPage">About</a>
       <a href="#projectsPage">Projects</a>
-      <a href="#certificatesPage">Certificates</a>
+      <a href="#certificationsPage">Certificates</a>
     </nav>
   );
 };

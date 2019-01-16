@@ -8,9 +8,9 @@ import certifications from './certifications';
 export default class CertificationsPage extends Component {
   render() {
     return (
-      <div>
+      <div id="certificationsPage">
         <Banner banner="Certifications" />
-        <div id="certificationsPage">
+        <div >
           <Skills content={certifications} />
         </div>
       </div>
