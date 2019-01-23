@@ -11,6 +11,7 @@ export default class ProjectsPage extends Component {
       <div id="projectsPage">
         <Banner  banner="Projects" />
         <div >
+          <Skills title="Web Work in the Wild" content={projects.clientWork} />
           <Skills title="Responsive Web Design" content={projects.responsive} />
           <Skills title="Vanilla JavaScript" content={projects.vanillaJs} />
           <Skills title="Front End Libraries" content={projects.frontEnd} />

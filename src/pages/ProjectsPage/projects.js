@@ -125,6 +125,21 @@ export default {
     title: "Metric Imperial Converter",
     link: "https://fcc-imperial-metric-converter-mckelveygreg.glitch.me",
     desc: "Node/Express/Helmet/Chai"
-  }]
+  }],
+
+  clientWork: [{
+    title: "Open Eugene Fest 2018",
+    link: "https://openeugene.org",
+    desc: "React/Gatsby",
+    img: require("../../images/project-screenshots/openeugene.jpg"),
+    alt: "Open Eugene Fest Website"
+  },{
+    title: "VR Training Solutions",
+    link: "https://vrtrainingsolutions.net",
+    desc: "WordPress",
+    img: require("../../images/project-screenshots/vrtrainingsolutions.jpg"),
+    alt: "VR Training Solutions Website"
+  }
+]
   
 }
